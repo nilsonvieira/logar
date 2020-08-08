@@ -1,0 +1,5 @@
+#!/bin/bash
+_OPC=$(zenity  --list  --text "O que deseja fazer?" --radiolist  --column "Check" --column "Opção" FALSE Acessar FALSE Cadastrar TRUE Sair);
+
+echo "$_OPC"
+
